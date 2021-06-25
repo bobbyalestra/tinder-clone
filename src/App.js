@@ -3,16 +3,16 @@
 import React from "react";
 import './App.css';
 import Header from "./Header"
-
-
+import TinderCards from "./TinderCards";
+import SwipeButtons from "./SwipeButtons"
+import AccessibilityNewIcon from '@material-ui/icons/AccessibilityNew';
 function App() {
   return (
     <div className="app">
+    <Header />
     
-
-<Header />
-    {/* {header} */}
-    {/*Tindercards */}
+    <TinderCards />
+   <SwipeButtons />
     </div>
   );
 }
